@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SubArrayTest.java",
+      "testCases": [
+        {
+          "methodName": "subTest1",
+          "label": "Extracts sub-array from beginning range",
+          "description": "Verifies that extracting elements 0 through 4 from the array [0,1,2,3,4,5] returns [0,1,2,3]."
+        },
+        {
+          "methodName": "subTest2",
+          "label": "Extracts sub-array from beginning range",
+          "description": "Verifies that extracting elements 0 through 4 from the array [0,1,2,3,4,5] returns [0,1,2,3]."
+        },
+        {
+          "methodName": "subTest3",
+          "label": "Extracts sub-array from larger exponential list",
+          "description": "Ensures that extracting elements 1 through 3 returns [4,8] from the input array."
+        }
+      ]
+    }
+  ]
+}
