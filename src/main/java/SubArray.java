@@ -15,8 +15,7 @@ public class SubArray {
     public int[] sub(int[] nums, int start, int end){
         int length = end - start;
         int[] result = new int[length];
-        
-        // Copy elements from the original array into the new sub-array
+    
         for (int i = 0; i < length; i++) {
             result[i] = nums[start + i];
         }
